@@ -1,0 +1,105 @@
+/*Corpo do site*/
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: rgb(39, 4, 121);
+}
+
+/*cabeçalho*/
+header{
+    background-color: darkmagenta;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Menu*/
+nav{
+    margin-top: 10px;
+}
+
+nav a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:houver{
+
+    text-decoration: rgb(168, 16, 62);
+    color: rgb(2, 1, 34);
+}
+
+/*Contúdo principal*/
+main{
+    padding: 15px;
+}
+
+/*seções*/
+section{
+    background-color:black; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+/*Titulos*/
+h1{
+    margin: 10px;
+}
+h2{
+    color: coral;
+}
+
+/*Listas*/
+ul,ol{
+    padding: 2px;
+}
+
+/*imagens*/
+img{
+    max-width: 40%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 5px solid;
+    padding: 4px;
+    text-align: left;
+}
+
+th{
+    background-color: blue;
+}
+
+/*Formulario*/
+form{
+    display: block;
+}
+input,textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 19px;
+    border: 0cqi;
+    border-radius: initial;
+}
+
+/*Rodápe*/
+footer{
+    background-color: darkred;
+    color: indigo;
+    text-align: start;
+    padding: unset;
+}
+
+/*Botão*/
+button{
+    background-color: mediumvioletred;
+    color: darkgoldenrod;
+    padding: 0cqi;
+    border: crimson;
+    border-radius: 10px;
+    cursor: alias;
+}
+button:hover{
+    background-color: black;
+    color: chartreuse;
+}
